@@ -1,0 +1,25 @@
+@import url("fontawesome-all.min.css");
+@import url("https://fonts.googleapis.com/css?family=Lato:300,400,900");
+html{
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+body{
+    background: none;
+}
+
+.parallax{
+    height: auto !important;
+    background-attachment: fixed !important;
+    background-position: center !important;
+    background-repeat: no-repeat !important;
+    background-size: cover;
+    overflow-y: hidden;
+    overflow-x: hidden !important;
+  }
+
+  nav.navbar h1{
+      font-family: Lato !important;
+      font-size: 20px;
+      
+  }
